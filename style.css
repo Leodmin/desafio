@@ -1,0 +1,168 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+header{
+    margin:-3px 0 0 96px ;
+
+}
+
+.header-rigth{
+color: #989D9C;
+font-size: 24px;
+font-weight: 600;
+line-height: normal;
+margin-right: 23px;
+cursor: pointer;
+
+}
+
+.button-LOG{
+color: #FFF;
+font-size: 24px;
+font-weight: 600;
+line-height: normal;
+background:#665AE1 ;
+border-radius: 20.5px;
+border: none;
+width: 130px;
+height: 41px;
+cursor: pointer;
+border: none;
+}
+
+img{
+    width: 568px;
+    height: 500px;
+    margin-top:144px ;
+    margin-left: 145px;
+    display: inline-block;
+}
+
+section{
+display:inline-block;
+margin-left: 86px;
+margin-bottom: 50px;
+
+}
+
+h1{
+    color: #5151511;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 115px;
+}
+
+h2{
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+p{
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    width: 500px;
+
+
+}
+
+
+button{
+    width: 239px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #ADFF00;
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 65px;
+    border: none;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background: #ADFF00;
+    opacity: 0.8;
+
+}
+
+.button-LOG:hover{
+background:#665AE1 ;
+    opacity: 0.5;
+
+}
+
+button:active{
+background: #ADFF00;
+opacity: 0.5;
+
+}
+
+.button-LOG:active{
+background: #665AE1;
+opacity: 0.8;
+}
+
+
+
+@media screen and (max-width: 580px){
+
+header{
+    display: none;
+}
+
+img{
+
+    width: 354px;
+    height: 317px;
+    margin-left: 31px;
+}
+
+h1{
+    width: 263px;
+    height: 52px;
+    color: #515151;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+
+h2{
+    color: #515151;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+p{
+
+display: none;
+
+}
+
+
+button{
+    margin: 0px 0px 0 0px ;
+
+
+}
+
+
+
+
+}    
